@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <BorderPane fx:id="MainPage" prefHeight="400.0" prefWidth="600.0">
+      <left>
+         <VBox fx:id="toolPanle" alignment="TOP_CENTER" prefHeight="400.0" prefWidth="150.0" style="-fx-background-color: #1E3C4F;" BorderPane.alignment="CENTER">
+            <children>
+               <Label fx:id="spaceLable" alignment="CENTER" contentDisplay="CENTER" prefHeight="110.0" prefWidth="150.0" textAlignment="JUSTIFY" textFill="#fffcea">
+                  <font>
+                     <Font size="18.0" />
+                  </font>
+               </Label>
+               <Button fx:id="schedule" minHeight="55.0" minWidth="150.0" mnemonicParsing="false" onAction="#scheduleEvent" prefHeight="55.0" prefWidth="150.0" style="-fx-background-color: #1E3C4F;" text="Schedule" textFill="WHITE" />
+               <Button fx:id="teams" minHeight="55.0" minWidth="150.0" mnemonicParsing="false" onAction="#teamsEvent" prefHeight="55.0" prefWidth="150.0" style="-fx-background-color: #1E3C4F;" text="Teams" textFill="WHITE" />
+               <Button fx:id="tournmants" minHeight="55.0" minWidth="150.0" mnemonicParsing="false" onAction="#torEvent" prefHeight="55.0" prefWidth="150.0" style="-fx-background-color: #1E3C4F;" text="Tournmants" textFill="WHITE" />
+               <Button fx:id="players" minHeight="55.0" minWidth="150.0" mnemonicParsing="false" onAction="#playersEvent" prefHeight="55.0" prefWidth="150.0" style="-fx-background-color: #1E3C4F;" text="Players" textFill="WHITE" />
+               <Button fx:id="login" minHeight="55.0" minWidth="150.0" mnemonicParsing="false" onAction="#loginEvent" prefHeight="55.0" prefWidth="150.0" style="-fx-background-color: #1E3C4F;" text="Login" textFill="WHITE" />
+            </children>
+         </VBox>
+      </left>
+   </BorderPane>
+</Scene>

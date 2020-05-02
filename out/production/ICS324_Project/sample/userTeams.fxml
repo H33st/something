@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TableView fx:id="playerTable" prefHeight="338.0" prefWidth="438.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+         <columns>
+            <TableColumn prefWidth="97.60000765323639" text="Player Name" />
+            <TableColumn prefWidth="52.79998016357422" text="Goals" />
+            <TableColumn prefWidth="119.19998168945312" text="red cards" />
+            <TableColumn prefWidth="97.60006713867188" text="yellow cards" />
+         </columns>
+      </TableView>
+      <Label fx:id="tLable" layoutX="157.0" layoutY="26.0" text="Team:" AnchorPane.rightAnchor="411.0" AnchorPane.topAnchor="26.0" />
+      <ComboBox fx:id="teamMenue" layoutX="46.0" layoutY="21.0" prefHeight="26.0" prefWidth="122.0" AnchorPane.leftAnchor="46.0" AnchorPane.topAnchor="21.0" />
+      <Label fx:id="mLable" layoutX="226.0" layoutY="25.0" text="Match:" AnchorPane.topAnchor="26.0" />
+      <ComboBox fx:id="matchMenue" layoutX="269.0" layoutY="30.0" prefHeight="26.0" prefWidth="122.0" AnchorPane.topAnchor="21.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="torTable" prefHeight="338.0" prefWidth="438.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="Rank" />
+            <TableColumn prefWidth="75.0" text="Team" />
+            <TableColumn prefWidth="119.19998168945312" text="Goals Scored" />
+            <TableColumn prefWidth="97.60006713867188" text="Goals received" />
+            <TableColumn prefWidth="59.20001220703125" text="Pointes" />
+         </columns>
+      </TableView>
+      <Label fx:id="torLablee" text="Search for a tournaments" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="25.0" />
+      <ComboBox fx:id="torDrobDown" layoutX="162.0" layoutY="21.0" prefWidth="150.0" AnchorPane.leftAnchor="162.0" AnchorPane.topAnchor="21.0" />
+   </children>
+</AnchorPane>

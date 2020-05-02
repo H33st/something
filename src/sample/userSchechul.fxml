@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="schTable" prefHeight="338.0" prefWidth="438.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="Team1" />
+            <TableColumn prefWidth="75.0" text="Team2" />
+            <TableColumn prefWidth="75.0" text="Time" />
+            <TableColumn prefWidth="75.0" text="Date" />
+            <TableColumn prefWidth="75.0" text="Refer" />
+            <TableColumn prefWidth="75.0" text="filed" />
+         </columns>
+      </TableView>
+      <Label fx:id="rLable" layoutX="14.0" layoutY="25.0" text="Search for a referee" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="25.0" />
+      <ComboBox fx:id="refereeMenue" layoutX="126.0" layoutY="21.0" prefWidth="150.0" AnchorPane.leftAnchor="126.0" AnchorPane.topAnchor="21.0" />
+   </children>
+</AnchorPane>
